@@ -1,7 +1,8 @@
-num = eval(input("Masukkan angka: "))
+num = eval(input("Masukkan integer: "))
+
 if num > 0:
-    print("Bilangan positif")
-elif num < 0:
-    print("Bilangan negatif")
+    print("Bilangan Positif")
+elif num == 0:
+    print("Bilangan nol")
 else:
-    print("Bilangan 0")
+    print("Bilangan Negatif")
